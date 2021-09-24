@@ -1,0 +1,37 @@
+/* Styling that applies to the entire webpage */
+body {
+    background-color: #FCEBB6;
+    font-family: Verdana,Arial;
+}
+
+
+/* header styling */
+    header {
+        background-color: #D2b48C;
+        text-align: center;
+    }
+/* text styling for the header */ 
+    h1 {
+        line-height: 200%;
+    }
+
+/* menu styling */
+    nav {
+        text-align: center;
+        font-weight: bold;
+    }
+
+/* footer styling */
+    footer {
+        background-color: #D2B48C;
+        font-size: .60em;
+        font-style: italic;
+        text-align: center;
+    }
+
+/* wrapper styling */
+    #wrapper {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
