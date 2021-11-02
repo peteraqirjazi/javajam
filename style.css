@@ -135,6 +135,17 @@ img {
 #desktop {
     display: inline;
 }
+table {
+    width: 90%;
+    border-spacing: 0;
+    margin: auto;
+}
+td, th {
+    padding: 10px;
+}
+tr:nth-of-type(odd) {
+    background-color: #D2B48E;
+}
 
 @media only screen and (max-width: 1024px) {
     body {
@@ -242,4 +253,3 @@ img {
     #mobile { display: inline; }
     #desktop { display: none; }
 }
-
